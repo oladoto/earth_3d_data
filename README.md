@@ -4,7 +4,7 @@ Earth demo using three.js and data fetch in JavaScript
 The files in this branch enable the rendering of an earth model with some data fetched from the internet
 
 Here is an archiectural view of the integration of all the files.
-https://learn3dart.com/wp-content/uploads/2022/03/three.js.pdf
+https://mobileserviceslabs.com/wp-content/uploads/2022/03/three.js.pdf
 
 Requires Server
 Note that to run these files, you would require some sort of server, either hosting on a live server or using XAMPP, MAMPP or WAMPP. You could also the Chrome extension that enables you identify a local folder to run a local server. 
