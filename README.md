@@ -17,7 +17,12 @@ Note that to run these files, you would require some sort of server, either host
    This is the main helper file, which hosts most of the complexity performed with Three.js. Object-oriented approaches are used to enable easy management of the 
    calls from a single varilable. It also enables you overcome the behvaiour of JavaScript where you need to define a function before its use down the source code page.
 
-Here is an example visualisation within a WordPress / Elementor environment - https://mobileserviceslabs.com/
-You can refresh the page to re-render the globe if it loads as white.
+Important Modification:
+You would notice this relative folder reference in the files - "../local_three/". 
+Make sure to place all files in a filder named local_three before executing. Before the files were uploaded to Github, all files were placed in a folder named "local_three". This was done because the files were hosted on the internet as seen in the link in (1) below. Thus, to use the files, make sure to place them in a folder named local_three, since they all refer to that folder. However, if you understand how relative folders work on the internet and on your local system, you could rename the folder or use your own unique configuration.
 
-Credits to Jos Dirksen in his book - Three.js Essentials - for the Earth modeling and rendering.
+1. Here is a hosting of this solution on the internet - https://mobileserviceslabs.com/api/js/apps/earth/local_three/index.php
+2. Here is an example visualisation within a WordPress / Elementor environment - https://mobileserviceslabs.com/. You can refresh the page to re-render the globe if it loads as white.
+
+
+Credits to Jos Dirksen on his book - Three.js Essentials - for the Earth modeling and rendering in Three.js.
