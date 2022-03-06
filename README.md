@@ -2,3 +2,6 @@
 Earth demo using three.js and data fetch in JavaScript
 
 The files in this branch enable the rendering of an earth model with some data fetched from the internet
+
+Here is an example visualisation in a WordPress / Elementor-based website - https://mobileserviceslabs.com/
+You can refresh the page to re-render the globe if it loads as white.
