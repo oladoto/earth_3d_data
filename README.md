@@ -16,6 +16,8 @@ Note that to run these files, you would require some sort of server, either host
 3. ThreeManager.js:- 
    This is the main helper file, which hosts most of the complexity performed with Three.js. Object-oriented approaches are used to enable easy management of the 
    calls from a single varilable. It also enables you overcome the behvaiour of JavaScript where you need to define a function before its use down the source code page.
+4. styles.css
+   Essential styling for the webpage is kept in the css file.
 
 Important Modification:
 You would notice this relative folder reference in the files - "../local_three/". 
