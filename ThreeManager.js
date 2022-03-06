@@ -1,12 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-import { MeshStandardMaterial }
-from '../local_three/three_dev/src/materials/MeshStandardMaterial.js';
 
-// Import three.js from teh cdn
+// Import three.js from the cdn
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.module.js';
 
 class ThreeManager

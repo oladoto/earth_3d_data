@@ -1,8 +1,5 @@
-/**
- *
- * Three.js for home page
- */
 
+// Import three.js from the cdn
 import { ThreeManager } from '../local_three/ThreeManager.js';
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.module.js';
 
